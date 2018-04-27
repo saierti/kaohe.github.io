@@ -1,0 +1,347 @@
+*{
+	margin:0;
+	padding: 0;
+}
+body{
+	margin:0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+	background-image: url(../../photo/预订背景.png);
+	background-repeat: no-repeat;
+	background-size:cover;
+}
+#top{
+	margin: 0;
+	padding: 10px;
+	background-image: url(../../photo/topx.png);
+	width: 100%;
+	height: 80px;
+	position: fixed;
+	top: 0;
+	z-index: 5;
+}
+#top div{
+	display: inline-block;
+	vertical-align: middle;
+	cursor: pointer;
+}
+#logo{
+	margin:0;
+	padding: 0;
+	width: 140px;
+	height: 70px;
+	background-image: url(../../photo/logo.png);
+	background-size: 140px 70px; 
+	display: inline-block;
+}
+#top-1{
+	margin-top:10px;
+}
+#top1{
+	margin:0;
+	padding:0;
+	width: 0;
+	height:30px;
+	overflow: hidden;
+	transition: width,0.3s;
+}
+.line,.map2{
+	display: inline-block;
+	margin:0 10px 0 10px;
+	vertical-align: middle;
+	height: 30px;
+	width: 56px;
+	font-size: 25px;
+}
+.line{
+	height:24px;
+	width:0px;
+	border:solid  #b7a16a 1.5px;
+	margin-right: 8px;
+}
+.map2 > span{
+	color: #b7a16a;
+	cursor: pointer;
+	text-align: center;
+	padding-bottom: 20px;
+}
+.map2 > span:hover{
+	color:#daa520;
+	
+}
+#map3-1,#map3-2{
+	text-align:center;
+	margin-left: -25px;
+	margin-top: 20px;
+	overflow: hidden;
+	width: 100px;
+	height: 0;
+	list-style: none;
+    background-color: #282823;
+    line-height: 3em;
+	color: #b7a16a;
+	font-size: 16px;
+	transition: height,0.3s;
+}
+#map3-1 li:hover{
+	color: #daa520;
+	border-left: solid 3px #daa520;
+}
+#map3-2 li:hover{
+	color: #daa520;
+	border-left: solid 3px #daa520;
+}
+#top2,#top3,#top4{
+	float: right;
+}
+.button{
+	display: inline-block;
+	width: 79px;
+	height: 80px;
+	background-size:70px 70px;
+	background-repeat: no-repeat;
+	margin:10px 0 0 20px;
+}
+.topfont a{
+	text-decoration: none;
+	color: #b7a16a;
+}
+.topfont{
+	color: #b7a16a;
+	margin:0 8px 0 0;
+	font-size: 16px;
+}
+.topfont:hover{
+	color:#daa520;
+}
+#top-1{
+	background-image: url(../../photo/top1.png);
+	transition: background-image,0.3s;
+}
+#top-1:hover{
+	background-image: url(../../photo/top1-2.png);
+}
+#top-2{
+	background-image: url(../../photo/top2.png);
+	transition: background-image,0.3s;	
+}
+#top-2:hover{
+	background-image: url(../../photo/top2-2.png);
+}
+#top-3{
+	background-image: url(../../photo/top3.png);
+	transition: background-image,0.3s;
+}
+#top-3:hover{
+	background-image: url(../../photo/top3-2.png);
+}
+#top-4{
+	background-image: url(../../photo/top4.png);
+	transition: background-image,0.3s;
+}
+#top-4:hover{
+	background-image: url(../../photo/top4-2.png);
+}
+#sign{
+	background-image: url(../../photo/sign背景.png);
+	width: 400px;
+    height: 0;
+    position: fixed;
+    right: 0;
+    z-index: 2;
+    top: 100px;
+    overflow: hidden;
+	transition: height 0.2s;
+}
+#sign img{
+	width: 100px;
+    margin-left: 68px;
+    margin-bottom: 15px;
+    padding: 10px;
+}
+#signmessage{
+	margin:0;
+	padding:0;
+	display: inline-block;
+	width: 190px;
+	height: 180px;
+}
+#signmessage p{
+	font-size: 15px;
+	color:#b7a16a;
+}
+#signmessage input{
+	height: 20px;
+}
+#signmessage button{
+	text-align: center;
+	width: 70px;
+	height: 30px;
+	margin-left: 50px;
+	border:solid black 1px;
+	background-color: #b7a16a;
+}
+#wrap{
+	width: 100%;
+	height: 600px;
+	margin-top:28%;
+}
+#wrap1{
+	margin:30px 1% 30px 12%;
+	width: 45%;
+	height: 540px;
+	background-color: rgb(0,0,0,0.63);
+	float: left;
+}
+#angle1{
+	width:0;
+	height:0;
+	border-top: 70px solid grey; 
+	border-right: 200px solid transparent;
+}
+.angle2{
+	width:0;
+	height:0;
+	border-top: 70px solid #c2986b; 
+	border-right: 200px solid transparent;
+	color: black;
+	font-size: 16px;
+}
+.angle3{
+	width: 0; 
+	height: 0; 
+	border-bottom: 70px solid #c2986b; 
+	border-left: 200px solid transparent;
+	position: absolute;
+    right: 0;
+    bottom: 0;
+}
+#wrap1-1{
+	width:98%;
+	height:500px;
+	background:rgb(252,237,237,0.7);
+	margin: 5% 1% 0 1%;
+    border-radius: 15px;
+    overflow: auto;
+}
+.room{
+	width:85%;
+	height: 180px;
+	margin: 1% 7% 7% 8%;
+    border-radius: 10px;
+    position: relative;
+    background-size: 100% 180px;
+	background-repeat: no-repeat;
+}
+.p1{
+	position: relative;
+    top: -34%;
+    right: -2%;
+    font-size: 19px;
+    font-weight: bold;
+}
+.p2{
+	position: absolute;
+	right:4%;
+	bottom: 2%;
+	font-size: 27px;
+    font-weight: bold;
+}
+#room1{
+	background-image: url(../../photo/room1.jpg);
+}
+#room2{
+	background-image: url(../../photo/room2.jpg);	
+}
+#room3{
+	background-image: url(../../photo/room3.jpg);
+}
+#room4{
+	background-image: url(../../photo/room4.jpg);
+}
+#room5{
+	background-image: url(../../photo/room5.jpg);
+}
+#room6{
+	background-image: url(../../photo/room6.jpg);
+}
+#room7{
+	background-image: url(../../photo/room7.jpg);
+}
+#room8{
+	background-image: url(../../photo/room8.jpg);
+}
+#room9{
+	background-image: url(../../photo/room9.jpg);
+}
+#wrap2{
+	width: 30%;
+	height: 100px;
+	background-color: rgb(0,0,0,0.63);
+	float: right;
+	margin:30px 7% 20px 5%;
+	text-align: center;
+}
+#wrap2-1,#wrap2-2,#wrap2-3{
+	display:inline-block;
+	margin:2% 4% 2% 4%;
+}
+#wrap2 p{
+	color: #fff;
+	font-size:20px;
+	text-align: center;
+	font-family: "黑体";
+}
+#wrap2 > p{
+    font-size: 25px;
+    font-family: STXinwei;
+    color: #dfe33d;
+}
+#wrap select{
+	width:125%;
+	height: 25px;
+	font-family: "黑体";
+	font-size:18px;
+	border-radius: 10px;
+}
+#wrap3{
+	width: 30%;
+	height: 390px;
+	background-color: rgb(0,0,0,0.63);
+	float: right;
+	margin:30px 7% 20px 5%;
+	overflow: auto;
+}
+#wrap3-1{
+	width:98%;
+	height:365px;
+	background:rgb(252,237,237,0.7);
+	margin: 5% 1% 0 1%;
+    border-radius: 15px;
+    overflow: auto;	
+}
+#wrap3-1-1{
+	margin:0;
+	padding:10px 0 0 0;
+	height: 50px;
+	width: 100%;
+	background-color: #fff;
+}
+#wrap3-1-1 span{
+	font-size: 25px;
+	font-weight: bold;
+	margin:5%;
+}
+#wrap3-1-1 select{
+	width:30%;
+	float: right;
+	margin-top: 8px;
+    margin-right: 20px;
+}
+.act{
+	width: 90%;
+	height: 120px;
+	background-color: grey;
+	margin:5% 5% 10% 5%;
+}

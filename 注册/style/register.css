@@ -1,0 +1,242 @@
+*{
+	margin:0;
+	padding: 0;
+}
+body{
+	margin:0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+	background-image: url(../../photo/注册.png);
+	background-repeat: no-repeat;
+	background-size:cover;
+}
+#top{										/*任务栏样式*/
+	margin: 0;
+	padding: 10px;
+	width:100%;
+	background-image: url(../../photo/topx.png);
+	height: 85px;
+	position: fixed;
+	top: 0;
+}
+#top div{
+	display: inline-block;
+	vertical-align: middle;
+	cursor: pointer;
+}
+#logo{
+	margin:0;
+	padding: 0;
+	width: 150px;
+	height: 80px;
+	background-image: url(../../photo/logo.png);
+	background-size: 150px 80px; 
+	display: inline-block;
+}
+#top-1{
+	margin-top:10px;
+}
+#top1{
+	margin:0;
+	padding:0;
+	width: 0;
+	height:30px;
+	overflow: hidden;
+	transition: width,0.3s;
+}
+.line,.map2{
+	display: inline-block;
+	margin:0 10px 0 10px;
+	vertical-align: middle;
+	height: 30px;
+	width: 56px;
+	font-size: 25px;
+}
+.line{
+	height:24px;
+	width:0px;
+	border:solid  #b7a16a 1.5px;
+	margin-right: 8px;
+}
+.map2 > span{
+	color: #b7a16a;
+	cursor: pointer;
+	text-align: center;
+	padding-bottom: 20px;
+}
+.map2 > span:hover{
+	color:#daa520;
+	
+}
+#map3-1,#map3-2{
+	text-align:center;
+	margin-left: -25px;
+	margin-top: 20px;
+	overflow: hidden;
+	width: 100px;
+	height: 0;
+	list-style: none;
+    background-color: #282823;
+    line-height: 2em;
+	color: #b7a16a;
+	font-size: 16px;
+	transition: height,0.3s;
+}
+#map3-1 li:hover{
+	color: #daa520;
+	border-left: solid 3px #daa520;
+}
+#map3-2 li:hover{
+	color: #daa520;
+	border-left: solid 3px #daa520;
+}
+#top2,#top3,#top4{
+	float: right;
+}
+.button{
+	display: inline-block;
+	width: 79px;
+	height: 80px;
+	background-size:70px 70px;
+	background-repeat: no-repeat;
+	margin:10px 0 0 20px;
+}
+.topfont a{
+	text-decoration: none;
+	color: #b7a16a;
+}
+.topfont{
+	color: #b7a16a;
+}
+.topfont:hover{
+	color:#daa520;
+}
+#top-1{
+	background-image: url(../../photo/top1.png);
+	transition: background-image,0.3s;
+}
+#top-1:hover{
+	background-image: url(../../photo/top1-2.png);
+}
+#top-2{
+	background-image: url(../../photo/top2.png);
+	transition: background-image,0.3s;	
+}
+#top-2:hover{
+	background-image: url(../../photo/top2-2.png);
+}
+#top-3{
+	background-image: url(../../photo/top3.png);
+	transition: background-image,0.3s;
+}
+#top-3:hover{
+	background-image: url(../../photo/top3-2.png);
+}
+#top-4{
+	background-image: url(../../photo/top4.png);
+	transition: background-image,0.3s;
+}
+#top-4:hover{
+	background-image: url(../../photo/top4-2.png);
+}
+#sign{
+	background-image: url(../../photo/sign背景.png);
+	width: 400px;
+    height: 0;
+    position: fixed;
+    right: 0;
+    z-index: 2;
+    top: 100px;
+    overflow: hidden;
+	transition: height 0.2s;
+}
+#sign img{
+	width: 100px;
+    margin-left: 68px;
+    margin-bottom: 15px;
+    padding: 10px;
+}
+#signmessage{
+	margin:0;
+	padding:0;
+	display: inline-block;
+	width: 190px;
+	height: 180px;
+}
+#signmessage p{
+	font-size: 15px;
+	color:#b7a16a;
+	float: left;
+}
+#signmessage input{
+	height: 20px;
+}
+#signmessage button{
+	text-align: center;
+	width: 70px;
+	height: 30px;
+	margin-left: 50px;
+	border:solid black 1px;
+	background-color: #b7a16a;
+}													/*任务栏样式结束*/
+#center{
+	margin:0;
+	padding: 0;
+	height: 170px;
+	vertical-align: middle;
+    text-align: center;
+    margin-top:100px;
+}
+#midlogo{
+	display: inline-block;
+	background-image: url(../../photo/注册logo.png);
+	margin-top:10px; 
+	width: 200px;
+	height:140px;
+    background-size: 200px 140px;
+    background-repeat: no-repeat;
+    vertical-align: middle;
+    text-align: center;
+}		
+#message{											/*注册栏样式*/
+	background-image: url(../../photo/注册图层.png);
+	border:solid white 2px;
+	border-radius: 20px;
+	margin:0 400px 0 400px;
+	height:520px;
+}
+table{
+    overflow: hidden;
+    zoom:1;
+    margin: 20px 0;
+}
+form > p{
+	text-align: right;
+	margin:8px 8px 0 0;
+	font-weight: bold;
+	font-size: 20px;
+}
+table td{
+    padding: 10px;           
+}
+input ,select{
+    width: 300px;
+    height: 30px;
+}
+label{
+    display: block;
+    width: 100%;
+    font-weight: bold;
+    text-align: right;
+        }
+#submit{
+	width: 100px;
+	height: 50px;
+	background-color:  #b7a16a;
+	border:solid black 2px;
+}
+#button{
+	text-align:center;
+	vertical-align: middle;
+}

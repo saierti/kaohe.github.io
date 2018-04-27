@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>register</title>
+	<link rel="stylesheet" type="text/css" href="../style/register.css">
+</head>
+<body>				
+<header  id="top">						<!从这开始是任务栏!>
+	<div id="logo"></div>
+	<div id="top-1" class="button"></div>
+	<div id="top1">
+		<li class="map2" >
+			<span id="map2-1">入住</span>
+			<ul id="map3-1">
+				<li>房型浏览</li>
+				<li>精选活动</li>
+				<li>地址查询</li>
+			</ul>	
+		</li>
+		<div class="line"></div>
+		<li class="map2">
+			<span id="map2-2">介绍</span>
+			<ul id="map3-2">
+				<li>公馆历史</li>
+				<li>公馆特色</li>
+				<li>公馆实景</li>
+			</ul>
+		</li>
+		<div class="line"></div>
+		<div class="map2"><span>关于</span></div>
+		<div class="line"></div>
+		<div class="map2"><span>联系</span></div>
+	</div>
+	<div id="top4">
+		<div id="top-4" class="button" href="#"></div>
+		<div class="topfont" href="#">中文&nbsp;&nbsp;&nbsp;</div>
+	</div>
+	<div id="top3">
+		<div id="top-3" class="button" href="#"></div>
+		<div class="topfont" href="#">联系我们</div>
+	</div>
+	<div id="top2">
+		<div id="top-2" class="button linksign" href="#"></div>
+		<div class="topfont linksign">登陆</div><div class="topfont">/</div><div class="topfont">注册</div>
+	</div>
+</header>
+<div id="sign">
+	<img src="../../photo/login.png">
+	<div id="signmessage">
+		<form action="" method="post">
+			<p>账号</p>
+			<input type="text" name="账号">
+			<p>密码</p>
+			<input type="text" name="password">
+			<p>忘记密码？</p>
+			<button>登入</button>
+		</form>
+	</div>
+</div>
+<div id="center">
+	<div id="midlogo"></div>
+</div>
+<div id="message">			           <!从这开始是注册栏!>
+	<form action="" method="post">
+            <table>
+            	<p><span>已有账户？登录</span></p>
+                <tr>
+                    <td><label>姓名</label></td>
+                    <td><input type="text" id="t1"/></td>
+                </tr>
+				<tr>
+					<td><label>性别</label></td>
+					<td>
+						<select id="maleorfemale">
+							<option value="男">男</option>
+							<option value="女">女</option>
+							<option value="人妖">人妖</option>
+							<option value="外星人">外星人</option>
+						</select>
+					</td>
+				</tr>
+                <tr>
+                    <td><label>密码</label></td>
+                    <td><input type="password" id="t2"/></td>
+                </tr>
+                <tr>
+                    <td><label>出生日期</label></td>
+                    <td><input type="date" id="t3"/></td>
+                </tr>
+                <tr>
+                    <td><label>邮箱</label></td>
+                    <td><input type="text" id="t4"/></td>
+                </tr>
+                <tr>
+                    <td><label>手机</label></td>
+                    <td><input type="text" id="t5"/></td>
+                </tr>
+            </table>
+            <p id="button"><button id="submit">立即提交</button></p>
+        </form>
+</div>
+<script type="text/javascript" src="../../js/jq.js"></script>
+<script type="text/javascript" src="../../js/top.js"></script>
+</body>
+</html>
